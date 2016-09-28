@@ -16,12 +16,12 @@ PKG_SOURCE_URL:=http://xcb.freedesktop.org/dist/
 PKG_MD5SUM:=d9275a714e83ab9c1f9b260c6eff1609
 PKG_INSTALL:=1
 
-#PKG_BUILD_DEPENDS:=python-mini/host
+#PKG_BUILD_DEPENDS:=python-base/host
 
 include $(INCLUDE_DIR)/package.mk
 #$(call include_mk, python-package.mk)
 
-#STAMP_CONFIGURED:=$(STAMP_CONFIGURED)_$(call confvar,PACKAGE_python PACKAGE_python-mini)
+#STAMP_CONFIGURED:=$(STAMP_CONFIGURED)_$(call confvar,PACKAGE_python PACKAGE_python-base)
 
 define Package/xcbproto
   SECTION:=xorg-libraries
